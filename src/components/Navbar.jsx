@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './Navbar.css';
+import helmetLogo from '../assets/LN4_2024_Helmet.png';
 
 export default function Navbar() {
   const [activeSection, setActiveSection] = useState('hero');
@@ -22,7 +23,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <a href="#hero" className="nav-logo">
-        <img src="/src/assets/LN4_2024_Helmet.png" alt="LN42024Helmet" className="nav-logo-icon" />
+        <img src={helmetLogo} alt="LN42024Helmet" className="nav-logo-icon" />
         KMT/PORTFOLIO</a>
       <ul className="nav-links">
         {links.map(link => (

@@ -92,19 +92,19 @@
   z-index: 0;
 }
 
-.highlight-red {
+.hero-sub .highlight-red {
   color: #e74c3c;
 }
 
-.highlight-purple {
+.hero-sub .highlight-purple {
   color: #9b59b6;
 }
 
-.highlight-yellow {
+.hero-sub  .highlight-yellow {
   color: #f1c40f;
 }
 
-.highlight-blue {
+.hero-sub .highlight-blue {
   color: #4a9eff;
 }
 .btn-primary {

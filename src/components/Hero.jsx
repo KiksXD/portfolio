@@ -1,4 +1,5 @@
 import './Hero.css';
+import mcl39 from '../assets/MCL39.png';
 
 export default function Hero() {
   return (
@@ -24,7 +25,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <img src="/src/assets/MCL39.png" alt="MCL39" className="hero-car-img" />
+      <img src={mcl39} alt="MCL39" className="hero-car-img" />
 
       <div className="hero-scroll">
         <div className="scroll-line" />
