@@ -7,6 +7,27 @@
   align-items: start;
 }
 
+.about-img-placeholder {
+  position: relative;
+  z-index: 1;
+  width: 280px;
+  height: 350px;
+  background: linear-gradient(135deg, #1a1a1a 0%, #222 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+
+.about-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
 .about-img-frame {
   position: relative;
   display: inline-block;
