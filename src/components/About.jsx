@@ -31,7 +31,7 @@ export default function About() {
         <div className="about-img-wrap reveal">
           <div className="about-img-frame">
             <div className="about-img-placeholder">
-              <img src={profilePhoto} alt="Profile"/>
+              <img src={profilePhoto} alt="Profile" className="about-img"/>
               <span>KMT</span>
             </div>
           </div>
