@@ -20,6 +20,12 @@
   text-decoration: none;
 }
 
+.nav-logo-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
 .nav-links {
   display: flex;
   gap: 2rem;

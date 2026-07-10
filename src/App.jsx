@@ -68,9 +68,9 @@ export default function App() {
       </main>
 
       <footer>
-        <span>© 2025 Kaung Myat Tun / Kikko</span>
+        <span>© 2026 Kaung Myat Tun / Kikko</span>
         <span>Computer Engineering · Singapore Polytechnic</span>
-        <span>Built with ♥ &amp; code</span>
+        <span>Electrical Intern · BeeX</span>
       </footer>
     </>
   );
