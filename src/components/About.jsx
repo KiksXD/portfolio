@@ -1,16 +1,14 @@
 import { useEffect, useRef } from 'react';
 import './About.css';
+import profilePhoto from '../assets/profile-photo.jpg';
 
 const stats = [
-  { num: '4+', label: 'Hackathons' },
-  { num: '3',  label: 'Countries'  },
-  { num: '68', label: 'CCA Points' },
-  { num: '3.5',label: 'GPA'        },
+  { num: '6+',  label: 'Projects'    },
+  { num: '82',  label: 'CCA Points'  },
 ];
 
 const badges = [
-  'Myanmar 🇲🇲', 'Malaysia 🇲🇾', 'Singapore 🇸🇬',
-  'IELTS 7.5', 'GPA 3.5', 'NYA Gold',
+  'ATAR 83.25', 'IELTS 7.5', 'GPA 3.6', 'NYAA GOLD',
 ];
 
 export default function About() {
@@ -33,6 +31,7 @@ export default function About() {
         <div className="about-img-wrap reveal">
           <div className="about-img-frame">
             <div className="about-img-placeholder">
+              <img src={profilePhoto} alt="Profile"/>
               <span>KMT</span>
             </div>
           </div>
@@ -43,23 +42,23 @@ export default function About() {
 
         <div className="about-text reveal">
           <h2 className="section-title">
-            International<br />Engineer &amp;<br />
-            <span style={{ color: 'var(--accent)' }}>Builder.</span>
+            Purpose-Driven<br />
+            <span style={{ color: 'var(--accent)' }}>Engineer &amp;<br />Architect.</span>
           </h2>
           <p>
-            I'm <span>Kaung Myat Tun</span> (also known as Kikko) — a Computer Engineering
+            I'm <span>Kaung Myat Tun</span> (also known as <span>Kikko</span>) — a <span>Computer Engineering</span> Diploma
             student at Singapore Polytechnic with a passion for engineering solutions that
             work in the real world.
           </p>
           <p>
-            Having studied across <span>Myanmar, Malaysia, and Singapore</span>, I bring a
-            global perspective and genuine adaptability to every team. I thrive in
-            cross-cultural environments and believe that diversity in thought drives better products.
+            As a Computer Engineering student, I treat <span>software</span> and <span>hardware</span> as two sides of the same coin.
+            Having a solid foundation in both allows me to look at <span>complex engineering systems</span> holistically and build with
+            purpose from the ground up.
           </p>
           <p>
-            From <span>hackathons</span> to hands-on lab projects, from <span>student
-            ambassador</span> leadership to serving customers on weekends — I approach every
-            experience as an opportunity to grow technically and as a person.
+            From rapid software deployment in high-pressure hackathons &amp; mini-projects to diagnosing complex hardware
+            components during my engineering internship — I treat every challenge as a <span>sandbox for growth</span>. I approach every
+            experience as an opportunity to push my <span>technical limits</span> and <span>build systems</span> that work in the real world.
           </p>
           <div className="stat-row">
             {stats.map(s => (
