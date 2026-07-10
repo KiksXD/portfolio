@@ -84,7 +84,6 @@
 
 .hero-car-img {
   position: absolute;
-  right: 5%;
   top: 50%;
   transform: translateY(-50%);
   width: 50%;
