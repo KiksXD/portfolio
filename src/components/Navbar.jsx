@@ -22,7 +22,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <a href="#hero" className="nav-logo">
-        <img src="/assets/LN4_2024_Helmet.png" alt="LN42024Helmet" className="nav-logo-icon" />
+        <img src="/src/assets/LN4_2024_Helmet.png" alt="LN42024Helmet" className="nav-logo-icon" />
         KMT/PORTFOLIO</a>
       <ul className="nav-links">
         {links.map(link => (

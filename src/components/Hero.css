@@ -82,6 +82,31 @@
   animation: fadeUp 0.7s 0.8s forwards;
 }
 
+.hero-car-img {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
+  max-width: 500px;
+  z-index: 0;
+}
+
+.highlight-red {
+  color: #e74c3c;
+}
+
+.highlight-purple {
+  color: #9b59b6;
+}
+
+.highlight-yellow {
+  color: #f1c40f;
+}
+
+.highlight-blue {
+  color: #4a9eff;
+}
 .btn-primary {
   background: var(--accent);
   color: var(--bg);
