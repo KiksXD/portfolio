@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import './About.css';
-import profilePhoto from '../assets/profile-photo.jpg';
+import profilePhoto from '../assets/Kikko.png';
 
 const stats = [
   { num: '6+',  label: 'Projects'    },
