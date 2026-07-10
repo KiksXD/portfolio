@@ -7,11 +7,6 @@
   align-items: start;
 }
 
-.about-img-wrap {
-  display: flex;
-  justify-content: center;
-}
-
 .about-img-frame {
   position: relative;
   display: inline-block;
