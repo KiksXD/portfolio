@@ -2,9 +2,9 @@ import { useEffect, useRef } from 'react';
 import './Contact.css';
 
 const contactLinks = [
-  { label: 'Email',                href: 'mailto:Kmtun13579@gmail.com', display: 'Kmtun13579@gmail.com' },
-  { label: 'Phone (Singapore)',    href: 'tel:+6594275904',             display: '+65 9427 5904' },
-  { label: 'Location',             href: '#',                           display: 'Woodlands Circle, Blk 754A, Singapore' },
+  { label: 'Email',                href: 'mailto:Kmtun13579@gmail.com',           display: 'Kmtun13579@gmail.com' },
+  { label: 'Phone (Singapore)',    href: 'tel:+6594275904',                       display: '+65 9427 5904' },
+  { label: 'Socials',             href: 'https://www.linkedin.com/in/kikkokmt/',  display: 'LinkedIn' },
 ];
 
 export default function Contact() {
