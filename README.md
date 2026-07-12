@@ -1,16 +1,108 @@
-# React + Vite
+# KMT / Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website for **Kaung Myat Tun @ Kikko** — Computer Engineering student at Singapore Polytechnic, specializing in Robotics & Machine Learning.
 
-Currently, two official plugins are available:
+**🔗 Live site:** [your-vercel-url.vercel.app](https://portfolio-five-mu-82.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive single-page portfolio with smooth scroll navigation
+- Animated section reveals on scroll (`IntersectionObserver`)
+- Sections: About, Experience, Skills, Projects, Education, Contact
+- Custom design system with CSS variables (accent color, dark theme)
+- Built with Vite for fast dev/build performance
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Framework:** React (Vite)
+- **Styling:** Plain CSS with CSS custom properties
+- **Deployment:** Vercel
+- **Icons/Assets:** Custom PNGs (logo, profile photo, illustrations)
+
+## 📂 Project Structure
+
+```
+my-portfolio/
+├── public/
+├── src/
+│   ├── assets/          # images (logo, profile photo, etc.)
+│   ├── components/
+│   │   ├── Navbar.jsx / Navbar.css
+│   │   ├── Hero.jsx / Hero.css
+│   │   ├── About.jsx / About.css
+│   │   ├── Experience.jsx / Experience.css
+│   │   ├── Skills.jsx / Skills.css
+│   │   ├── Projects.jsx / Projects.css
+│   │   ├── Education.jsx / Education.css
+│   │   └── Contact.jsx / Contact.css
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) v18 or later
+- npm (comes with Node)
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/my-portfolio.git
+cd my-portfolio
+npm install
+```
+
+### Run locally
+
+```bash
+npm run dev
+```
+
+Visit `http://localhost:5173` to view it in the browser.
+
+### Build for production
+
+```bash
+npm run build
+```
+
+Output is generated in the `dist/` folder.
+
+### Preview the production build locally
+
+```bash
+npm run preview
+```
+
+## ☁️ Deployment
+
+This project is deployed on **[Vercel](https://vercel.com)**.
+
+### Steps to deploy your own copy:
+
+1. Push this repo to your own GitHub account.
+2. Go to [vercel.com/new](https://vercel.com/new) and import the GitHub repo.
+3. Vercel auto-detects the Vite framework preset — no config needed. Confirm these settings if asked:
+   - **Build Command:** `npm run build`
+   - **Output Directory:** `dist`
+4. Click **Deploy**. Vercel will build and give you a live URL (e.g. `my-portfolio.vercel.app`).
+5. Every subsequent `git push` to the `main` branch triggers an automatic redeploy.
+
+> **Note:** Make sure all image assets in `src/assets/` are committed to git (check `.gitignore` doesn't exclude them) — Vercel builds from a clean clone of your repo, so any file not pushed to GitHub won't be available during the build.
+
+## 📬 Contact
+
+- 📍 Singapore
+- 📧 kmtun13579@gmail.com
+- 📞 +65 9427 5904
+
+---
+
+*Built with React + Vite.*
