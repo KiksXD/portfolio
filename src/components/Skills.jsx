@@ -2,12 +2,12 @@ import { useEffect, useRef } from 'react';
 import './Skills.css';
 
 const skillGroups = [
-  { icon: '⚙️', category: 'Programming Languages', items: ['C++', 'Python', 'Flutter', 'Dart'] },
-  { icon: '🌐', category: 'Web Development',        items: ['HTML', 'CSS', 'JavaScript'] },
-  { icon: '☁️', category: 'Cloud Technologies',     items: ['AWS EC2', 'AWS S3', 'AWS Lambda', 'AWS IoT'] },
+  { icon: '⚙️', category: 'Programming Languages', items: ['C++', 'C', 'Python', 'Dart'] },
+  { icon: '🌐', category: 'Web Development',        items: ['HTML', 'CSS', 'JavaScript', 'React', 'Node', 'Express', 'MongoDB'] },
+  { icon: '🛠️', category: 'Hardware',                items: ['Soldering', 'Wire Harnessing', 'PCB Diagnosis'] },
   { icon: '🐳', category: 'DevOps',                  items: ['Kubernetes', 'Docker', 'DockerHub', 'CI/CD'] },
-  { icon: '📊', category: 'Data Analysis',           items: ['PowerBI', 'KNIME', 'Data Pipelines'] },
-  { icon: '🤖', category: 'Embedded & IoT',          items: ['Arduino', 'AIoT', 'Sensors', 'Automation'] },
+  { icon: '📊', category: 'Data Analysis',           items: ['PowerBI', 'KNIME', 'MATPLOTLIB', 'PANDAS'] },
+  { icon: '🤖', category: 'Embedded & IoT',          items: ['Arduino', 'STM32', 'Sensors', 'Raspberry Pi'] },
 ];
 
 export default function Skills() {
